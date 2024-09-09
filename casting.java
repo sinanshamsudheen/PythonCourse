@@ -8,7 +8,7 @@ public class casting {
         int fp = p + (int)18.00; //explicit casting
         System.out.println(fp); //118
 
-        final float PI = 3.14;
+        final float PI = 3.14F; //Constants
         System.out.println(PI);
 
     }

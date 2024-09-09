@@ -17,7 +17,7 @@ public class conditional {
         }
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter m value: ");
+        System.out.print("Enter m value(switch): ");
         int m=sc.nextInt();
 
         switch(m){
@@ -32,6 +32,7 @@ public class conditional {
         int[] arr = new int[100];
         System.out.print("enter the limit: ");
         int val=sc.nextInt();
+        
         System.out.print("enter the elements: ");
         for(int i=0;i<val;i++){
             arr[i]=sc.nextInt();
@@ -39,7 +40,5 @@ public class conditional {
         for(int i=0;i<val;i++){
             System.out.println(arr[i]);
         }
-
-
     }
 }

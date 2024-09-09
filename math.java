@@ -9,7 +9,7 @@ public class math {
         Scanner sc =new Scanner(System.in);
 
         System.out.print("Input ur name: ");
-        String name=sc.nextLine();
+        String name=sc.next(); //inputs a word
         System.out.println(name);
         
         System.out.print("Input your age: ");
@@ -17,7 +17,7 @@ public class math {
         System.out.println(age);
         
         System.out.println("Enter ur motto: ");
-        String motto = sc.nextLine();
+        String motto = sc.nextLine(); //inputs a sentence
         System.out.println(motto);
 
         System.out.print("Enter your salary: ");
